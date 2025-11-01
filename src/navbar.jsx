@@ -277,7 +277,7 @@ const Navbar = () => {
                 Sign up
               </li>
             </a>
-            <a href="/profile">
+            <a href="/account">
               <li className="text-md font-[500] py-2 px-3 bg-white text-black rounded-md hover:cursor-pointer hover:bg-[#fbbb3b]">
                 Profile
               </li>
@@ -435,7 +435,7 @@ const Navbar = () => {
                 Sign Up
               </li>
             </a>
-            <a href="/profile">
+            <a href="/account">
               <li className="w-full text-md font-[500] py-2 px-3 text-black rounded-md primarycolorbg bg-white">
                 Profile
               </li>
@@ -583,7 +583,7 @@ const Navbar = () => {
                 Sign up
               </li>
             </a>
-            <a href="/profile">
+            <a href="/account">
               <li className="text-md font-[500] py-2 px-3 bg-white text-black rounded-md">
                 Profile
               </li>

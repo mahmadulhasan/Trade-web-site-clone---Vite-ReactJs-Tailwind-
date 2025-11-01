@@ -18,6 +18,12 @@ body{
     border-bottom: 2px solid var(--border-color);
 }
 
+.ticket-edge {
+  background-image: repeating-linear-gradient(
+    #0f0f0f 0 4px,
+    transparent 4px 8px
+  );
+}
 
 
 
@@ -40,7 +46,7 @@ body{
     }
 
     .sidebar svg {
-        height: 50px;
+        height: 35px;
         width: 100%;
         align-items: center;
         

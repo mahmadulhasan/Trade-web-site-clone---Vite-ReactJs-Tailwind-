@@ -12,14 +12,14 @@ const ProfileIndex = () => {
         <Navbar />
       </div>
       <div className=" mt-[10vh] flex flex-row mainbody ">
-        <div className="sidebar background h-[89.7vh]">
-          <Sidebar />{" "}
+        <div className="sidebar background h-[89.7vh] overflow-auto scrollbar-hide">
+          <Sidebar />
         </div>
         <div className="w-full   ">
           <div className="p-5 md:h-[89.7vh] overflow-auto scrollbar-hide">
-            {" "}
+            
             <MainBody />
-            <div className="w-full h-[500px]">footer</div>
+            
           </div>
           
         </div>

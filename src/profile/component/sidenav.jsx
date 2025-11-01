@@ -8,6 +8,7 @@ const Sidenav = () => {
     setactiveDropdown(activeDropdown === menu ? null : menu);
   };
   const menudata = {
+    
     "Add Funds": ["P2P Trading", "Deposite Fait", "Third-Party"],
     Markets: [],
     Trade: ["Spot", "Margin", "Convert", "Strategy"],
